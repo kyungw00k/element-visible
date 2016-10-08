@@ -1,0 +1,39 @@
+{
+  "name": "element-visible",
+  "version": "1.0.0",
+  "description": "Determine if an element is visible",
+  "main": "index.js",
+  "scripts": {
+    "test:local": "./node_modules/.bin/zuul --local --open --ui mocha-bdd test.js",
+    "test:headless": "./node_modules/.bin/zuul --electron --ui mocha-bdd test.js",
+    "test": "./node_modules/.bin/zuul -- --ui mocha-bdd test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyungw00k/element-visible.git"
+  },
+  "keywords": [
+    "visible element",
+    "viewability change",
+    "viewable element"
+  ],
+  "author": "Kyungwook Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kyungw00k/element-visible/issues"
+  },
+  "homepage": "https://github.com/kyungw00k/element-visible#readme",
+  "dependencies": {
+    "document-offset": "^1.0.4",
+    "element-client-rect": "^1.0.1",
+    "element-in-document": "^1.0.1",
+    "element-style": "^0.1.1",
+    "intersect-client-rects": "^1.0.1",
+    "viewport-position": "^0.1.1",
+    "within-element": "^0.1.0"
+  },
+  "devDependencies": {
+    "zuul": "^3.11.1",
+    "zuul-ngrok": "^4.0.0"
+  }
+}

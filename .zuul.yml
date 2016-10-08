@@ -1,0 +1,21 @@
+ui: mocha-bdd
+concurrency: 2
+tunnel:
+  type: ngrok
+  proto: tcp
+browsers:
+  - name: ie
+    version: 6..latest
+  - name: chrome
+    version: latest
+    platform: Windows 10
+  - name: safari
+    version: latest
+    platform: Windows 2008
+  - name: firefox
+    version: latest
+    platform: Windows 2008
+  - name: iphone
+    version: 8.1..latest
+  - name: android
+    version: 4.0..latest

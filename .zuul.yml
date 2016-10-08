@@ -6,6 +6,8 @@ tunnel:
 browsers:
   - name: ie
     version: 6..latest
+  - name: microsoftedge
+    version: latest
   - name: chrome
     version: latest
     platform: Windows 10
@@ -14,7 +16,7 @@ browsers:
     platform: Windows 2008
   - name: firefox
     version: latest
-    platform: Windows 2008
+    platform: Linux
   - name: iphone
     version: 8.1..latest
   - name: android

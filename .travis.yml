@@ -3,6 +3,9 @@ dist: trusty
 language: node_js
 node_js:
 - '5.0'
+branches:
+  only:
+    - master
 env:
   global:
   - secure: eJz152fen+GPI5cvVJpLdKTc4OJXTUwpnGlh8K59x3uYaJg3X3C7d/SUSqIJDUXlHC1Pd9vAI1CSbxwwc9KCaKYKnM/VHoa6isp9xlLMzn9n+cxsWLnFBzhGvfy6NyRRhT9HQLYDXWiujKzv4ofTLxAm7XknV83IfepxZRZX14mL2WzacXf9551wQsXn7fpT3DtHfwcCGDiH7cqDGhr8MZNprvomO+KzFb4wEhMOTiE497AUWSwTBlEz/g9LWEsHbEp7Pwq1BPRV9U+v0DOWG+DGvSzrI0Qky7GUZ1jcTqfzgfY/7WY7mI5reXfkpEviYX1ouvnSQ4yV5j2PG/dfg5zzHsdGxH0rHQs7j9YH5Q8ssXJREnpH4k+R41OhTymmV/FqsxN/BdKuMwSQS7dhzewFwEo8rXzkmV/5yJuk703/QCvg4rJfZvi8p7rN/JEl+NcdnB5mOWyUA0Sgh97m/fSkuVuzJxy/SBgU6mhmSQfbsPhYBfINrDBSRuEjVH2YCGEHdkanvyuuf425UsGaoAz/8R3KD0b3zHOHq5BuzrGIGcJdTWt7/mUH+uiJk0ZqxnnR5qbn2nsv8dJS9U8F5w7Euhq5r7GIsOgq/DNCDXfAGe1U8+qoILD+vIDg8/KnBgBWjTbYeP5hqvm7zj7CBai0sZCcv69wiDdrbtEh4MA=

@@ -35,7 +35,6 @@ $ npm i element-visible --save-dev
 
 ## Usage
 
-### Basic visibility check
 This basic check will return true if the entire element is visible to the user (within the visual viewport).
 
 ```js

@@ -1,6 +1,6 @@
 {
   "name": "element-visible",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Determine if an element is visible",
   "main": "index.js",
   "scripts": {

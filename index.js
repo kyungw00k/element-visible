@@ -59,7 +59,7 @@ function elementVisible (element, threshold) {
       elementStyle(currentNode, 'visibility') === 'hidden') {
       return false
     }
-  } while ((currentNode = currentNode.parentNode) !== document)
+  } while ((currentNode = currentNode.parentNode) !== document && currentNode)
 
   // If element is actually visible in the document,
   if (elementInDocument(element, threshold)) {

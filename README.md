@@ -4,8 +4,6 @@
 [![JavaScript Style Guide][js-standard-image]][js-standard-url]
 [![NPM version][npm-image]][npm-url]
 [![NPM download][npm-download]][npm-url]
-[![Dependency Status][depstat-image]][depstat-url]
-[![DevDependency Status][depstat-dev-image]][depstat-dev-url]
 
 [js-standard-url]: http://standardjs.com/
 [js-standard-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
@@ -17,12 +15,6 @@
 [travis-url]: https://travis-ci.org/kyungw00k/element-visible
 [travis-image]: https://img.shields.io/travis/kyungw00k/element-visible/master.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/kyungw00k/element-visible
-[depstat-image]: https://david-dm.org/kyungw00k/element-visible.svg?style=flat-square
-
-[depstat-dev-url]: https://david-dm.org/kyungw00k/element-visible#info=devDependencies
-[depstat-dev-image]: https://david-dm.org/kyungw00k/element-visible/dev-status.svg?style=flat-square
-    
 > Determine if an element is visible
 
 ## Install
